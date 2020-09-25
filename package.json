@@ -1,0 +1,24 @@
+{
+  "name": "@theronin/utradebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TheLoneRonin/UTradeBot.git",
+  "author": "The Lone Ronin",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build && node dist/Bot.js",
+    "build": "tsc --outDir dist"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/superagent": "^4.1.10",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "puppeteer": "^5.3.1",
+    "superagent": "^6.1.0",
+    "telegram-api": "^4.2.0",
+    "tronweb": "^3.0.0"
+  }
+}
